@@ -1,0 +1,55 @@
+body {
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	display: flex;
+}
+
+.hero {
+	background-color: #1f2937;
+}
+
+.header {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.header-logo {
+	font-size: 1.5rem;
+	color: #f9faf8;
+}
+
+.header-links {
+	list-style: none;
+	padding: 0;
+}
+
+.header-links a {
+	font-size: 1.2rem;
+	color: #e5e7eb;
+	text-decoration: none;
+}
+
+.main-area {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.main-area-text h1 {
+	font-size: 3rem;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.main-area-text p {
+	font-size: 1.2rem;
+	color: #e5e7eb;
+}
+
+.main-area-text button {
+	background-color: #3882f6;
+	border: none;
+	border-radius: 0.3rem;
+	color: white;
+}
