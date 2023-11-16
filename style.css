@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: "Roboto", sans-serif;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -129,4 +129,26 @@ MAIN PART
 .info-cards {
 	display: flex;
 	gap: 4rem;
+}
+
+/*
+QUOTE AREA
+*/
+
+.quote-area {
+	display: flex;
+	flex-direction: column;
+	padding: 5rem 20rem 5rem 20rem;
+	background-color: #e5e7eb;
+	font-size: 2.5rem;
+	font-weight: 100;
+	font-style: italic;
+	color: #1f2937;
+}
+
+.author {
+	font-size: 2rem;
+	font-weight: 600;
+	font-style: normal;
+	text-align: end;
 }
