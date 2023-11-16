@@ -17,6 +17,17 @@ button {
 	font-family: inherit;
 	color: inherit;
 	border: 0;
+	font-weight: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
 }
 
 /*
@@ -79,9 +90,9 @@ MAIN PART
 
 .main-area-text button {
 	background-color: #3882f6;
+	color: white;
 	border: none;
 	border-radius: 0.5rem;
-	color: white;
 	font-size: 2rem;
 	width: 15rem;
 	height: 3rem;
@@ -118,6 +129,7 @@ MAIN PART
 	width: 12rem;
 	border-radius: 1rem;
 	border: 0.3rem solid #3882f6;
+	margin-bottom: 1.2rem;
 }
 
 .area-2 p {
@@ -151,4 +163,56 @@ QUOTE AREA
 	font-weight: 600;
 	font-style: normal;
 	text-align: end;
+}
+
+/*
+CALL-TO-ACTION AREA
+*/
+
+.call-to-action-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5rem 13rem 5rem 13rem;
+	color: white;
+}
+
+.call-to-action-card {
+	background-color: #3882f6;
+	border-radius: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 2rem;
+	padding: 2.5rem 6rem 2.5rem 6rem;
+}
+
+.call-to-action-text {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+	max-width: 40rem;
+}
+
+.call-to-action-text h3 {
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.call-to-action-text p {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.call-to-action-card button {
+	background-color: #3882f6;
+	border: white solid 0.16rem;
+	border-radius: 0.5rem;
+	color: white;
+	font-size: 1.6rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	flex-shrink: 0;
 }
