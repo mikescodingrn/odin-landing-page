@@ -10,7 +10,7 @@ body {
 	width: 100%;
 	max-width: 100%;
 	display: flex;
-	justify-items: right;
+	flex-direction: column;
 }
 
 button {
@@ -19,9 +19,12 @@ button {
 	border: 0;
 }
 
+/*
+MAIN PART
+*/
+
 .hero {
 	background-color: #1f2937;
-	width: 100%;
 	padding: 2rem 13rem 6rem 13rem;
 }
 
@@ -88,4 +91,42 @@ button {
 	height: 20rem;
 	margin-left: 2rem;
 	border-radius: 0.5rem;
+}
+
+/*
+2ND PART
+*/
+
+.area-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3rem;
+	margin-top: 4rem;
+	margin-bottom: 5rem;
+}
+.area-2 h2 {
+	font-size: 3rem;
+	font-weight: 900;
+	color: #1f2937;
+	margin: 0;
+}
+
+.area-2 img {
+	object-fit: cover;
+	height: 12rem;
+	width: 12rem;
+	border-radius: 1rem;
+	border: 0.3rem solid #3882f6;
+}
+
+.area-2 p {
+	font-size: 1.2rem;
+	color: rgb(82, 82, 82);
+	text-align: center;
+}
+
+.info-cards {
+	display: flex;
+	gap: 4rem;
 }
